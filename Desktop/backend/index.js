@@ -22,6 +22,13 @@ server.post('/carrinho', function(req,res){
   server.get('/carrinho', function (req,res){
     return res.status(200).json(carrinho)
   })
+
+//  server.delete('/carrinho/id', function (req,res){
+//     const produtoId = req.params.id
+//     carrinho.delete(produtoId)
+//     return res.status(200).json(carrinho)
+//   })
+
 server.listen(3000, () =>{
  console.log('Servidor esta funcionando!');
 });
