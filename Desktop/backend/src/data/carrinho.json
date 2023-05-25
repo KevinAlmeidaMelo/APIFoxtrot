@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "user": 2,
+        "itens": [
+            {
+                "id": "15",
+                "nome": "Greys Anatomy",
+                "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+                "descricao": "Durante sua residência, Meredith Grey vive paixões profissionais e pessoais com seus colegas médicos em um hospital de Seattle.",
+                "price": 13.4,
+                "quantidade": 2
+            }
+        ]
+    }
+]
