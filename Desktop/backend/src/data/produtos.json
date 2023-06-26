@@ -1,51 +1,585 @@
 [
     {
         "id": "1",
-        "nome": "Greys Anatomy",
+        "nome": "Boneca Barbie",
         "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
-        "descricao": "Durante sua residência, Meredith Grey vive paixões profissionais e pessoais com seus colegas médicos em um hospital de Seattle.",
-        "price": 13.4
+        "descricao": "A clássica boneca Barbie, perfeita para horas de diversão e imaginação.",
+        "price": 13.4,
+        "categoria": "Brinquedo"
     },
     {
         "id": "2",
-        "nome": "Vingadores Guerra Infinita",
+        "nome": "Carro de Controle Remoto",
         "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
-        "descricao": "Em Vingadores: Guerra Infinita, Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças entre alguns de seus integrantes.",
-        "price": 12.3 
+        "descricao": "Um carro de controle remoto de alta velocidade para pilotos habilidosos.",
+        "price": 12.3,
+        "categoria": "Brinquedo"
     },
     {
         "id": "3",
-        "nome": "Black Summer",
+        "nome": "Quebra-Cabeça",
         "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
-        "descricao": "Nos primeiros dias de um sombrio apocalipse zumbi, estranhos se unem para sobreviver e voltar para aqueles que amam.",
-        "price": 23.99
+        "descricao": "Um desafiador quebra-cabeça com várias peças para estimular o raciocínio.",
+        "price": 23.99,
+        "categoria": "Brinquedo"
     },
     {
         "id": "4",
-        "nome": "A Era do Gelo 4",
+        "nome": "Carrinho de Montar",
         "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
-        "descricao": "A louca perseguição de Scrat sempre à caça de sua noz inquieta - perseguição à qual ele tem se dedicado desde os primórdios dos tempos - tem consequências que mudam o mundo e causam um cataclismo continental que leva Manny, Diego e Sid a viverem a maior aventura de todos os tempos.",
-        "price": 32.7  
+        "descricao": "Um conjunto de peças para montar seu próprio carrinho e soltar a imaginação.",
+        "price": 32.7,
+        "categoria": "Brinquedo"
     },
     {
         "id": "5",
-        "nome": "The Witcher",
+        "nome": "Bola de Futebol",
         "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
-        "descricao": "O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.",
-        "price": 23
+        "descricao": "Uma bola de futebol durável e resistente para partidas empolgantes.",
+        "price": 23,
+        "categoria": "Esporte"
     },
     {
         "id": "6",
-        "nome": "O Mentalista",
+        "nome": "Pistola de Água",
         "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
-        "descricao": "Um famoso (médium) se autointitula e começa a trabalhar como consultor do California Bureau of Investigation para encontrar (Red John), o louco que matou sua esposa e filha.",
-        "price": 23.2
+        "descricao": "Uma pistola de água divertida para brincadeiras refrescantes nos dias quentes.",
+        "price": 23.2,
+        "categoria": "Brinquedo"
     },
     {
         "id": "7",
-        "nome": "Narcos",
+        "nome": "Conjunto de Blocos de Construção",
         "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
-        "descricao": "A notória série sobre o tráfico é baseada na história real de violência e poder dos cartéis colombianos.",
-        "price": 23.2
-    }  
-  ]
+        "descricao": "Um conjunto de blocos de construção para criar estruturas incríveis.",
+        "price": 23.2,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "8",
+        "nome": "Kit de Pintura",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit completo de pintura com pincéis, tintas e tela para expressar sua criatividade.",
+        "price": 15.9,
+        "categoria": "Artes"
+    },
+    {
+        "id": "9",
+        "nome": "Boneco de Ação",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um boneco de ação articulado para criar histórias emocionantes e aventuras imaginárias.",
+        "price": 19.5,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "10",
+        "nome": "Skate",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um skate resistente e ágil para manobras radicais e diversão na pista.",
+        "price": 45.8,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "11",
+        "nome": "Quebra-Cabeça 3D",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um quebra-cabeça em 3D para montar uma réplica de um famoso monumento.",
+        "price": 29.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "12",
+        "nome": "Bola de Basquete",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma bola de basquete oficial para partidas emocionantes no quintal ou na quadra.",
+        "price": 18.5,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "13",
+        "nome": "Kit de Modelagem de Argila",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit completo de modelagem de argila para criar esculturas e objetos decorativos.",
+        "price": 27.8,
+        "categoria": "Artes"
+    },
+    {
+        "id": "14",
+        "nome": "Boneco de Pelúcia",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um boneco de pelúcia macio e fofo para abraçar e acompanhar nas aventuras imaginárias.",
+        "price": 9.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "15",
+        "nome": "Tênis Esportivo",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um par de tênis esportivos confortáveis e duráveis para atividades físicas e esportes.",
+        "price": 59.9,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "16",
+        "nome": "Canetas de Colorir",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de canetas coloridas para dar vida a desenhos e trabalhos artísticos.",
+        "price": 8.5,
+        "categoria": "Artes"
+    },
+    {
+        "id": "17",
+        "nome": "Jogo de Tabuleiro",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um jogo de tabuleiro divertido e estratégico para desafiar amigos e família.",
+        "price": 32.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "18",
+        "nome": "Raquete de Tênis de Mesa",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma raquete de tênis de mesa de alta qualidade para partidas competitivas.",
+        "price": 14.9,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "19",
+        "nome": "Pincéis de Arte",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de pincéis de diferentes tamanhos e formatos para pintura e arte.",
+        "price": 12.5,
+        "categoria": "Artes"
+    },
+    {
+        "id": "20",
+        "nome": "Cubo Mágico",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um cubo mágico desafiador que testa suas habilidades de resolução de problemas.",
+        "price": 7.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "21",
+        "nome": "Bola de Vôlei",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma bola de vôlei oficial para partidas emocionantes na praia ou na quadra.",
+        "price": 24.5,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "22",
+        "nome": "Conjunto de Tintas Acrílicas",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de tintas acrílicas de várias cores para pintura em tela e trabalhos artísticos.",
+        "price": 19.99,
+        "categoria": "Artes"
+    },
+    {
+        "id": "23",
+        "nome": "Pelota de Futebol de Salão",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma pelota de futebol de salão para partidas intensas em quadras menores.",
+        "price": 16.8,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "24",
+        "nome": "Lápis de Cor",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de lápis de cor de alta qualidade para colorir e desenhar.",
+        "price": 9.5,
+        "categoria": "Artes"
+    },
+    {
+        "id": "25",
+        "nome": "Kit de Mágica",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de mágica com truques e ilusões para surpreender e divertir o público.",
+        "price": 29.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "26",
+        "nome": "Raquete de Badminton",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma raquete de badminton leve e resistente para partidas rápidas e dinâmicas.",
+        "price": 22.5,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "27",
+        "nome": "Pincel de Maquiagem",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um pincel de maquiagem macio e preciso para aplicação de produtos de beleza.",
+        "price": 7.9,
+        "categoria": "Beleza"
+    },
+    {
+        "id": "28",
+        "nome": "Microscópio",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um microscópio de alta qualidade para explorar o mundo microscópico e fazer descobertas científicas.",
+        "price": 99.99,
+        "categoria": "Educação"
+    },
+    {
+        "id": "29",
+        "nome": "Kit de Costura",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit completo de costura com agulhas, linhas e botões para reparos e projetos de costura.",
+        "price": 14.5,
+        "categoria": "Artesanato"
+    },
+    {
+        "id": "30",
+        "nome": "Kit de Experimentos Científicos",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de experimentos científicos com materiais e instruções para realizar diversas atividades divertidas.",
+        "price": 34.99,
+        "categoria": "Educação"
+    },
+    {
+        "id": "31",
+        "nome": "Quebra-Cabeça 3D",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um quebra-cabeça em 3D para montar uma estrutura tridimensional e desafiadora.",
+        "price": 18.5,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "32",
+        "nome": "Prancheta de Desenho",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma prancheta de desenho para facilitar o processo de criação e sketching.",
+        "price": 12.9,
+        "categoria": "Artes"
+    },
+    {
+        "id": "33",
+        "nome": "Skate",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um skate resistente e ágil para manobras radicais e passeios divertidos.",
+        "price": 49.99,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "34",
+        "nome": "Conjunto de Carimbo",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de carimbos com diferentes formas e desenhos para criar arte e decorações.",
+        "price": 9.99,
+        "categoria": "Artes"
+    },
+    {
+        "id": "35",
+        "nome": "Carrinho de Controle Remoto Off-Road",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um carrinho de controle remoto off-road com suspensão para enfrentar terrenos acidentados.",
+        "price": 39.9,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "36",
+        "nome": "Bola de Basquete",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma bola de basquete resistente e aderente para partidas emocionantes nas quadras.",
+        "price": 26.5,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "37",
+        "nome": "Kit de Modelagem em Argila",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de modelagem em argila com ferramentas e instruções para criar esculturas e objetos artísticos.",
+        "price": 15.8,
+        "categoria": "Artes"
+    },
+    {
+        "id": "38",
+        "nome": "Patins Inline",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um par de patins inline confortáveis e ajustáveis para passeios e manobras.",
+        "price": 59.99,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "39",
+        "nome": "Conjunto de Canetas Coloridas",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de canetas coloridas com diferentes tons para desenho e escrita criativa.",
+        "price": 11.9,
+        "categoria": "Artes"
+    },
+    {
+        "id": "40",
+        "nome": "Kit de Ferramentas para Artesanato",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de ferramentas variadas para trabalhos manuais e projetos de artesanato.",
+        "price": 19.5,
+        "categoria": "Artesanato"
+    },
+    {
+        "id": "41",
+        "nome": "Patins de Rodinha (Roller)",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um par de patins de rodinha clássicos para se divertir e dar voltas no parque.",
+        "price": 34.9,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "42",
+        "nome": "Paleta de Sombras",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma paleta de sombras com diversas cores e acabamentos para criar looks variados.",
+        "price": 16.99,
+        "categoria": "Beleza"
+    },
+    {
+        "id": "43",
+        "nome": "Instrumento Musical Infantil",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um instrumento musical infantil, como um teclado ou uma flauta, para introduzir as crianças na música.",
+        "price": 21.5,
+        "categoria": "Música"
+    },
+    {
+        "id": "44",
+        "nome": "Cubo Mágico (Rubik's Cube)",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "O famoso cubo mágico para desafiar suas habilidades de resolução de quebra-cabeças.",
+        "price": 9.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "45",
+        "nome": "Kit de Pintura em Tela",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit completo de pintura em tela com tintas e pincéis para criar obras de arte.",
+        "price": 29.99,
+        "categoria": "Artes"
+    },
+    {
+        "id": "46",
+        "nome": "Bicicleta Infantil",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma bicicleta infantil com rodinhas laterais para auxiliar no aprendizado e diversão das crianças.",
+        "price": 89.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "47",
+        "nome": "Kit de Maquiagem Infantil",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de maquiagem infantil com produtos seguros e divertidos para as crianças brincarem de se maquiar.",
+        "price": 14.9,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "48",
+        "nome": "Livro de Colorir para Adultos",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um livro de colorir com desenhos complexos para relaxamento e alívio do estresse.",
+        "price": 10.99,
+        "categoria": "Livro"
+    },
+    {
+        "id": "49",
+        "nome": "Kit de Ciências",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de ciências com experimentos e materiais para despertar o interesse pela ciência nas crianças.",
+        "price": 28.5,
+        "categoria": "Educação"
+    },
+    {
+        "id": "50",
+        "nome": "Conjunto de Tintas Acrílicas",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de tintas acrílicas de diferentes cores para pintura em tela e artesanato.",
+        "price": 14.5,
+        "categoria": "Artes"
+    },
+    {
+        "id": "51",
+        "nome": "Bola de Vôlei",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma bola de vôlei macia e durável para jogos divertidos na praia ou no parque.",
+        "price": 19.99,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "52",
+        "nome": "Jogo de Tabuleiro Clássico",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um jogo de tabuleiro clássico, como xadrez ou damas, para desafiar suas habilidades estratégicas.",
+        "price": 24.9,
+        "categoria": "Jogos de Tabuleiro"
+    },
+    {
+        "id": "53",
+        "nome": "Kit de Pintura Facial",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de pintura facial com tintas seguras para criar diferentes personagens e designs no rosto.",
+        "price": 11.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "54",
+        "nome": "Câmera Instantânea",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma câmera instantânea para capturar e imprimir momentos especiais de forma instantânea.",
+        "price": 79.99,
+        "categoria": "Eletrônicos"
+    },
+    {
+        "id": "55",
+        "nome": "Quebra-Cabeça 3D",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um quebra-cabeça em 3D para montar e criar uma miniatura de um monumento famoso.",
+        "price": 18.5,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "56",
+        "nome": "Conjunto de Giz de Cera",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de giz de cera em várias cores para desenhar e colorir.",
+        "price": 8.99,
+        "categoria": "Artes"
+    },
+    {
+        "id": "57",
+        "nome": "Bicicleta de Montanha (Mountain Bike)",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma bicicleta de montanha resistente e ágil para aventuras off-road.",
+        "price": 349.9,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "58",
+        "nome": "Kit de Pintura em Porcelana",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de pintura em porcelana com tintas especiais para personalizar xícaras, pratos e outros objetos de porcelana.",
+        "price": 32.99,
+        "categoria": "Artesanato"
+    },
+    {
+        "id": "59",
+        "nome": "Quebra-Cabeça de Madeira",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um quebra-cabeça de madeira com peças em formatos variados para montar uma imagem.",
+        "price": 14.9,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "60",
+        "nome": "Livro de Ficção Científica",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um livro de ficção científica cheio de aventuras e histórias empolgantes.",
+        "price": 12.99,
+        "categoria": "Livro"
+    },
+    {
+        "id": "61",
+        "nome": "Kit de Química",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de química com substâncias e experimentos para aprender sobre reações químicas.",
+        "price": 26.5,
+        "categoria": "Educação"
+    },
+    {
+        "id": "62",
+        "nome": "Patinete Infantil",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um patinete infantil com rodas iluminadas para diversão ao ar livre.",
+        "price": 49.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "63",
+        "nome": "Violão Acústico",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um violão acústico para iniciantes que desejam aprender a tocar.",
+        "price": 79.99,
+        "categoria": "Música"
+    },
+    {
+        "id": "64",
+        "nome": "Kit de Pintura em Tecido",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de pintura em tecido com tintas e pincéis para criar estampas personalizadas em roupas e tecidos.",
+        "price": 18.5,
+        "categoria": "Artesanato"
+    },
+    {
+        "id": "65",
+        "nome": "Conjunto de Golfe Infantil",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de golfe infantil com tacos, bolas e alvos para praticar esse esporte divertido.",
+        "price": 34.9,
+        "categoria": "Esporte"
+    },
+    {
+        "id": "66",
+        "nome": "Kit de Origami",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de origami com papéis coloridos e instruções para criar diferentes formas e animais de papel.",
+        "price": 9.99,
+        "categoria": "Artesanato"
+    },
+    {
+        "id": "67",
+        "nome": "Pelúcia de Animais Selvagens",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma pelúcia de animais selvagens, como leão, tigre ou elefante, para abraçar e brincar.",
+        "price": 12.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "68",
+        "nome": "Teclado Eletrônico",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um teclado eletrônico com várias teclas e funções para aprender a tocar músicas.",
+        "price": 89.99,
+        "categoria": "Música"
+    },
+    {
+        "id": "69",
+        "nome": "Conjunto de Blocos de Construção Magnéticos",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de blocos de construção magnéticos para criar estruturas divertidas e coloridas.",
+        "price": 29.99,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "70",
+        "nome": "Kit de Pintura a Óleo",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de pintura a óleo com tintas e pincéis para criar obras de arte em tela.",
+        "price": 42.5,
+        "categoria": "Artes"
+    },
+    {
+        "id": "71",
+        "nome": "Bicicleta Infantil",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Uma bicicleta infantil com rodinhas laterais para ajudar as crianças a aprenderem a pedalar.",
+        "price": 69.9,
+        "categoria": "Brinquedo"
+    },
+    {
+        "id": "72",
+        "nome": "Kit de Ciências",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um kit de ciências com experimentos e materiais para aprender sobre diversos fenômenos científicos.",
+        "price": 19.99,
+        "categoria": "Educação"
+    },
+    {
+        "id": "73",
+        "nome": "Pincéis de Maquiagem Profissional",
+        "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8f4RzCDNA4pYPC0uzJ9yrBp0lu1I9u7oD6A&usqp=CAU",
+        "descricao": "Um conjunto de pincéis de maquiagem profissional para aplicação de produtos cosméticos.",
+        "price": 24.99,
+        "categoria": "Beleza"
+    }]
